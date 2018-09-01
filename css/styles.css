@@ -750,7 +750,7 @@ footer{
 }
 
 .Java {width: 90%; background-color: #4CAF50;} /* Green */
-.C {width: 85%; background-color: #2196F3;} /* Blue */
+.C/C++ {width: 85%; background-color: #2196F3;} /* Blue */
 .Python {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 
