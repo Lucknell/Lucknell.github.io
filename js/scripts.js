@@ -49,6 +49,15 @@
             scrollTop: scrollDistance + 'px'
         }, 500);
     });
+	
+	
+	jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
 
     // Create timeline
     $('#experience-timeline').each(function() {
@@ -93,11 +102,5 @@
             $('#more-projects').fadeIn(300);
         });
     });
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
+
 })(jQuery);
