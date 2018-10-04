@@ -97,7 +97,7 @@ header.active{
 }
 header.sticky{
     position:fixed;
-    z-index:999
+    z-index:998
 }
 #menu.active{
     display:block
@@ -732,7 +732,7 @@ footer{
     position:fixed;
     top:0;
     left:0;
-    z-index: 99 !important; 
+    z-index: 999; 
     
 }
 
